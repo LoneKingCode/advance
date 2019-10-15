@@ -19,7 +19,7 @@ public class code2 {
                 int n = add % 10;
                 int _carry = add / 10;
                 add = n == 0 ? carry : n + carry;
-                temp3.val = n == 0 ? carry : n + carry;;
+                temp3.val = add;
                 //保存进位
                 carry = _carry;
             } else {
