@@ -1,8 +1,6 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+package leetcode;
 
-public class Main {
+public class code121 {
 
     public int maxProfit(int[] prices) {
         if (prices.length == 0)
@@ -22,7 +20,7 @@ public class Main {
 
     public static void main(String[] args) {
         int[] nums = {1, 4, 5, 6, 9};
-        new Main().maxProfit(nums);
+        new code121().maxProfit(nums);
 
     }
 

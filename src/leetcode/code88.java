@@ -32,7 +32,6 @@ public class code88 {
                     inserted=true;
                     break;
                 }
-
             }
             if (!inserted) {
                 nums1[m++] = nums2[i];
