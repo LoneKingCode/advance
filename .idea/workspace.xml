@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/treeCreateAndReverse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+            <state relative-caret-position="302">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,11 +47,15 @@
       <find>&amp;&amp;!hasFind</find>
       <find>, notFind</find>
       <find>‘</find>
+      <find>RChild</find>
+      <find>CreateTreeFirst</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
       <replace>notFind</replace>
       <replace>'</replace>
+      <replace>right</replace>
+      <replace>createTreeFirst</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -85,11 +92,15 @@
         <option value="$PROJECT_DIR$/src/leetcode/code169.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code189.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code70.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/linkedList1.java" />
+        <option value="$PROJECT_DIR$/src/tree/treeCreateAndReverse.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-5" />
     <option name="y" value="45" />
     <option name="width" value="1935" />
@@ -103,6 +114,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,21 +132,19 @@
               <item name="advance" type="b2602c69:ProjectViewProjectNode" />
               <item name="advance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SwordOffer" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -143,6 +154,8 @@
       <recent name="leetcode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProject\LoneKingCode\java\advance\src\SwordOffer" />
+      <recent name="D:\MyProject\LoneKingCode\java\advance\src\tree" />
       <recent name="D:\MyProject\LoneKingCode\java\advance\src\leetcode" />
     </key>
   </component>
@@ -158,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.code26">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="advance" />
@@ -184,8 +197,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.code26" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.code26" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +226,9 @@
       <workItem from="1571375876557" duration="4749000" />
       <workItem from="1571655054813" duration="1443000" />
       <workItem from="1571670533543" duration="35000" />
-      <workItem from="1572260135953" duration="101000" />
+      <workItem from="1572260135953" duration="138000" />
+      <workItem from="1572513664908" duration="599000" />
+      <workItem from="1572521795155" duration="12604000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -264,11 +279,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571670550860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="..">
+      <created>1572260251406</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572260251406</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97471000" />
+    <option name="totallyTimeSpent" value="110711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,10 +302,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="36" width="1548" height="860" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19127516" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -292,8 +314,8 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24504249" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.27197802" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2181303" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2592068" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -362,6 +384,36 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>node</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstNode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>listNode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>q</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>temp</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>result</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -373,36 +425,6 @@
       </expression>
       <expression>
         <expression-string>remain.substring(0,2 )</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>remain.substring(0, tempStr.length() )</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>remain.substring(0, tempStr.length() - 1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>temp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;abc&quot;.substring( 0,&quot;abc&quot;.length()-1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;ab&quot;.substring( 0,&quot;ab&quot;.length()-1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>&quot;a&quot;.substring( 0,&quot;a&quot;.length()-1)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -652,10 +674,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tree/treeCreateAndReverse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        <state relative-caret-position="302">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
