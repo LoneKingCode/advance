@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/treeCreateAndReverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/backwardKnode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/fastPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -27,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,6 +97,10 @@
         <option value="$PROJECT_DIR$/src/tree/treeCreateAndReverse.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/fastPower.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/backwardKnode.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -114,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -134,10 +138,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="advance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="advance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="reverseLinkedList.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,6 +163,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="SwordOffer" />
       <recent name="leetcode" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -228,7 +241,8 @@
       <workItem from="1571670533543" duration="35000" />
       <workItem from="1572260135953" duration="138000" />
       <workItem from="1572513664908" duration="599000" />
-      <workItem from="1572521795155" duration="12604000" />
+      <workItem from="1572521795155" duration="12853000" />
+      <workItem from="1572566418578" duration="14886000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -286,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572260251406</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="..">
+      <created>1572534696197</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572534696197</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110711000" />
+    <option name="totallyTimeSpent" value="125846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,9 +324,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19638069" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19906166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,8 +334,8 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2181303" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2592068" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2181303" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23087819" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -375,56 +395,69 @@
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>6</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="l" />
       </configuration>
     </watches-manager>
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/advance$Main.ic" NAME="Main Coverage Results" MODIFIED="1572599515723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>node</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstNode</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>listNode</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>q</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>temp</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>p</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
       <expression>
         <expression-string>result</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>remain.substring(tempStr.length() )</expression-string>
+        <expression-string>p1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>remain.substring(0,2 )</expression-string>
+        <expression-string>list1</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>head</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>slow</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>exponent % 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(1 / base) * (1 / base)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>String format = String.format(&quot;%08d&quot;,Integer.parseInt(Integer.toBinaryString(3)));         System.out.println(format);</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>n</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -688,17 +721,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/fastPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/backwardKnode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="32" selection-start-line="32" selection-start-column="2" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="462">
+          <caret line="35" column="82" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="35" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
