@@ -20,32 +20,27 @@ public class treeCreateAndReverse {
 
     //中序遍历二叉树
     public static void traverseMid(TreeNode node) {
-        if (node.left != null) {
-            traverseMid(node.left);
-        }
+        if (node == null) return;
+        traverseMid(node.left);
         System.out.print(node.val);
-        if (node.right != null) {
-            traverseMid(node.right);
-        }
+        traverseMid(node.right);
+
     }
+
     //先序遍历二叉树
     public static void traverseFirst(TreeNode node) {
+        if (node == null) return;
         System.out.print(node.val);
-        if (node.left != null) {
-            traverseFirst(node.left);
-        }
-        if (node.right != null) {
-            traverseFirst(node.right);
-        }
+        traverseFirst(node.left);
+        traverseFirst(node.right);
+
     }
+
     //后序遍历二叉树
     public static void traverseLast(TreeNode node) {
-        if (node.left != null) {
-            traverseFirst(node.left);
-        }
-        if (node.right != null) {
-            traverseFirst(node.right);
-        }
+        if (node == null) return;
+        traverseFirst(node.left);
+        traverseFirst(node.right);
         System.out.print(node.val);
     }
 
