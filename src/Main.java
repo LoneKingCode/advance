@@ -6,14 +6,37 @@ import java.math.BigInteger;
 import java.util.*;
 
 public class Main {
-    public int Add(int num1, int num2) {
-        return num2 == 0 ? num1 : Add(num1 ^ num2, (num1 & num2) << 1);
+
+    public RandomListNode Clone(RandomListNode pHead) {
+        Map<RandomListNode, RandomListNode> map = new HashMap<>();
+        RandomListNode p1 = pHead;
+        RandomListNode p2 = pHead;
+        while (p1 != null) {
+            map.put(p1, new RandomListNode(p1.label));
+            p1 = p1.next;
+        }
+        while (p2 != null) {
+            //复制的结点 指向 原结点指向的结点的复制节点
+            map.get(p2).next = map.get(p2.next);
+            //复制的结点 随机指向 原结点随机指向的结点的复制结点
+            map.get(p2).random = map.get(p2.random);
+            p2 = p2.next;
+        }
+        return map.get(pHead);
     }
 
     public static void main(String[] args) {
-        System.out.println(new Main().Add(5, 7));
 
     }
 
 }
 
+class RandomListNode {
+    int label;
+    RandomListNode next = null;
+    RandomListNode random = null;
+
+    RandomListNode(int label) {
+        this.label = label;
+    }
+}
