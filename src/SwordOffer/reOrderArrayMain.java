@@ -2,43 +2,29 @@ package SwordOffer;
 
 import java.util.Arrays;
 
+/**
+ * 题目：调整数组顺序使奇数位于偶数前面
+ * 描述：输入一个整数数组，实现一个函数来调整该数组中数字的顺序，使得所有的奇数位于数组的前半部分，
+ * 所有的偶数位于数组的后半部分，并保证奇数和奇数，偶数和偶数之间的相对位置不变。
+ * 思路：
+ * 遍历数组，遇到偶数就放到末尾，注意循环的终止条件，要带上移动的次数
+ */
 public class reOrderArrayMain {
-    //遇到偶数就放到末尾
     public void reOrderArray(int[] array) {
         int move = 0;
         int index = 0;
-        while (array.length - move - index > 0) {
+        while (move + index < array.length) {
             if (array[index] % 2 == 0) {
-                int temp = array[index];
-                System.arraycopy(array, index + 1, array, index, array.length - index - 1);
-                array[array.length - 1] = temp;
                 move++;
+                int temp = array[index];
+                //将该偶数之后所有元素左移一位，这样的话最后一个元素位置就空出来，用于放这个偶数
+                System.arraycopy(array, index + 1, array, index, array.length - index - 1);
+                //把该偶数放到最后一位
+                array[array.length - 1] = temp;
+                //因为整体左移了1位，所以index要-1
                 index--;
             }
             index++;
-        }
-    }
-
-    public void reOrderArray1(int[] array) {
-        int pos = 0;
-        boolean firstEven = array.length > 0 && array[0] % 2 == 0;
-        for (int i = 0; i < array.length; i++) {
-            //找到奇数元素且左边为偶数元素
-            if (array[i] % 2 == 1 && i > 0 && array[i - 1] % 2 == 0) {
-                int temp = array[i];
-                if (pos > 0) { //该奇数前右多个偶数，偶数整体右移
-                    System.arraycopy(array, pos, array, pos + 1, i - pos);
-                    if (firstEven) array[pos++] = temp;
-                    else array[++pos] = temp;
-                } else if (firstEven && pos == 0) { //首位偶数的话 直接整体右移一下给奇数让出位置
-                    System.arraycopy(array, pos, array, pos + 1, i - pos);
-                    array[pos++] = temp;
-                } else { //首次发现奇数情况，偶数右移1 奇数左移到偶数位置
-                    pos = i - 1;
-                    System.arraycopy(array, pos, array, pos + 1, 1);
-                    array[pos] = temp;
-                }
-            }
         }
     }
 

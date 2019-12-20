@@ -1,9 +1,13 @@
 package SwordOffer;
 
 import java.util.ArrayList;
-
+/**
+ * 题目：从尾到头打印链表
+ * 介绍：输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
+ * 思路：链表原地置换
+ */
 public class reverseLinkedList {
-    //链表原地置换
+
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
         ArrayList<Integer> result = new ArrayList<>();
         if (listNode == null) {

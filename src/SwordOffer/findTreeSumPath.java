@@ -1,4 +1,4 @@
-package tree;
+package SwordOffer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -50,9 +50,5 @@ public class findTreeSumPath {
         node.left.right = new TreeNode(3);
         node.right = new TreeNode(12);
         node.right.left = new TreeNode(4);
-        //  node.right.right = new TreeNode(2);
-        new findTreeSumPath().FindPath(node, 8);
     }
-
 }
-
