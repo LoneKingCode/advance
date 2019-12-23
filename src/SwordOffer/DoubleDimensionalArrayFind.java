@@ -11,12 +11,11 @@ package SwordOffer;
  * 3 9 10
  */
 public class DoubleDimensionalArrayFind {
-    //递归法
+    //    递归法
 //    private boolean result;
-//    // 左下角值 大的向右 小的向上
 //    public boolean Find(int target, int[][] array) {
 //        result = false;
-//        find(target,array,array.length - 1,0);
+//        find(target, array, array.length - 1, 0);
 //        return result;
 //    }
 //
@@ -30,8 +29,8 @@ public class DoubleDimensionalArrayFind {
 //                result = true;
 //            }
 //        }
-//
 //    }
+
     public boolean Find(int target, int[][] array) {
         if (array.length < 1) {
             return false;

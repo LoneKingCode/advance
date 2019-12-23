@@ -2,28 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/CloneRandomListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/numberOf1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jjjava/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jjjava/VolatileAtomDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jjjava/doubleValidateSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jjjava/genericity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1114.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1115.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1116.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1117.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1195.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/code1226.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/ReverseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/code50.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/record.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/backwardKnode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/FindKthToTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/fastPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/fastPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tree/findTreeSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/findTreeSumPath.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,20 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="93">
+              <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +72,10 @@
       <find>TreeNode</find>
       <find>tree.</find>
       <find>current.next = listNode;</find>
+      <find>FindKthToTail</find>
+      <find>ReverseList</find>
+      <find>Merge</find>
+      <find>HasSubtree</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
@@ -106,6 +92,9 @@
       <replace>push</replace>
       <replace>TreeLinkNode</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\MyProject\LoneKingCode\java\advance\src\SwordOffer</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -113,9 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/code79.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/code93.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/code131.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code88.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code118.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code119.java" />
@@ -127,9 +113,6 @@
         <option value="$PROJECT_DIR$/src/leetcode/code70.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/linkedList1.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTree.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/fastPower.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/backwardKnode.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/subTree.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" />
         <option value="$PROJECT_DIR$/src/tree/findTreeSumPath.java" />
@@ -158,11 +141,17 @@
         <option value="$PROJECT_DIR$/src/leetcode/code1116.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code1117.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code1226.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/numberOf1.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/code50.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/fastPower.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/backwardKnode.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/ReverseList.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/FindKthToTail.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
     </option>
@@ -180,6 +169,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,22 +193,21 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/SwordOffer" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="SwordOffer" />
       <recent name="leetcode" />
+      <recent name="SwordOffer" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\MyProject\LoneKingCode\java\advance\src\leetcode" />
@@ -364,7 +353,11 @@
       <workItem from="1573222544348" duration="2108000" />
       <workItem from="1574474049398" duration="10094000" />
       <workItem from="1574650310087" duration="5198000" />
-      <workItem from="1576828176513" duration="12941000" />
+      <workItem from="1576828176513" duration="14102000" />
+      <workItem from="1576909484641" duration="5569000" />
+      <workItem from="1576933756767" duration="617000" />
+      <workItem from="1577026108698" duration="2854000" />
+      <workItem from="1577101320352" duration="5708000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -450,11 +443,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572792047593</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="..">
+      <created>1576845733686</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576845733687</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="232482000" />
+    <option name="totallyTimeSpent" value="248391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -469,7 +469,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.22654155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.23927614" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.28217158" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -479,7 +479,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.09773371" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.16855524" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -521,6 +521,16 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+        <expression-string>result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>n &amp; 1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -541,11 +551,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>result</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
         <expression-string>allowCut - cutCount+1</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
@@ -560,31 +565,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>fast</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/code46.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="method#backtrack1#0;class#code46#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/code47.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/code53.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
@@ -596,48 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/subTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/backwardKnode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/fastPower.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -883,49 +824,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java">
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/numberOf1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-189">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="53" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding>
-            <element signature="e#1933#1934#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/numberOf1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        <state relative-caret-position="416">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/code50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/fastPower.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="46" column="43" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/ReverseList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/FindKthToTail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/subTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

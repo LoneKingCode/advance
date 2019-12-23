@@ -16,7 +16,6 @@ import java.util.HashMap;
 public class reConstructBinaryTreeMain {
     private int index;
     private boolean[] used;
-
     public TreeNode reConstructBinaryTree(int[] pre, int[] in) {
         index = 0;
         used = new boolean[pre.length];
@@ -33,7 +32,8 @@ public class reConstructBinaryTreeMain {
     }
 
 
-    private void create(TreeNode node, int[] pre, int[] in, HashMap<Integer, Integer> inMap, HashMap<Integer, Integer> preMap) {
+    private void create(TreeNode node, int[] pre, int[] in,
+                        HashMap<Integer, Integer> inMap, HashMap<Integer, Integer> preMap) {
         if (index > pre.length - 1) {
             return;
         }
@@ -42,13 +42,13 @@ public class reConstructBinaryTreeMain {
         used[index] = true;
         //该元素在中序遍历中的位置
         int midPos = inMap.get(node.val);
-        //左边有元素 且 此左元素未被先序遍历中所使用
+        //中序中左边有元素 且 此左元素未被先序遍历中所使用
         if (midPos > 0 && !used[preMap.get(in[midPos - 1])]) {
             node.left = new TreeNode(0);
             index++;
             create(node.left, pre, in, inMap, preMap);
         }
-        //右边有元素 且 此左元素未被先序遍历中所使用
+        //中序中右边有元素 且 此左元素未被先序遍历中所使用
         if (midPos < in.length - 1 && !used[preMap.get(in[midPos + 1])]) {
             node.right = new TreeNode(0);
             index++;
