@@ -12,24 +12,48 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.function.IntConsumer;
 
-/**
- * 题目：二叉搜索树的后序遍历序列
- * 描述：输入一个整数数组，判断该数组是不是某二叉搜索树的后序遍历的结果。
- *      如果是则输出Yes,否则输出No。假设输入的数组的任意两个数字都互不相同。
- * 思路：
- * 二叉搜索树 左节点小于根节点 右节点大于根节点
- *           12
- *       5       18
- *     4   7   15  19
- * 后序遍历为 4 7 5 15 19 18 12
- */
+
 public class Main {
-    public boolean VerifySquenceOfBST(int [] sequence) {
+    ArrayList<ArrayList<Integer>> result;
+
+    public ArrayList<ArrayList<Integer>> FindPath(TreeNode root, int target) {
+        result = new ArrayList<>();
+        if (root == null) return result;
+        find(root, target, 0, new ArrayList<Integer>());
+        return result;
+    }
+
+    public void find(TreeNode node, int target, int current, ArrayList<Integer> temp) {
+        if (target == current) {
+            result.add(new ArrayList<>(temp));
+            return;
+        }
+        if (node == null || current + node.val > target) {
+            return;
+        }
+
+        if (node.left != null) {
+            temp.add(node.val);
+
+            find(node.left, target, current + node.val, temp);
+            temp.remove(temp.size() - 1);
+        }
+        if (node.right != null) {
+            temp.add(node.val);
+            find(node.right, target, current + node.val, temp);
+            temp.remove(temp.size() - 1);
+        }
 
     }
 
     public static void main(String[] args) {
-
+        TreeNode tree = new TreeNode(1);
+        tree.left = new TreeNode(2);
+        tree.left.left = new TreeNode(3);
+        tree.left.left.left = new TreeNode(3);
+        tree.right = new TreeNode(4);
+        tree.right.right = new TreeNode(1);
+        System.out.println(new Main().FindPath(tree, 6));
     }
 
 }

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="..">
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" afterDir="false" />
+    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SwordOffer/subTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/subTree.java" afterDir="false" />
     </list>
@@ -23,14 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="191">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="35" column="17" selection-start-line="16" selection-start-column="4" selection-end-line="40" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -98,7 +109,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/code118.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code119.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code121.java" />
         <option value="$PROJECT_DIR$/src/leetcode/code122.java" />
@@ -147,6 +157,7 @@
         <option value="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/subTree.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" />
+        <option value="$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java" />
         <option value="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
       </list>
@@ -183,14 +194,13 @@
               <item name="advance" type="b2602c69:ProjectViewProjectNode" />
               <item name="advance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
+              <item name="jjjava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advance" type="b2602c69:ProjectViewProjectNode" />
               <item name="advance" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="SwordOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="PrintFromTopToBottomTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="advance" type="b2602c69:ProjectViewProjectNode" />
@@ -377,7 +387,8 @@
       <workItem from="1577101320352" duration="5801000" />
       <workItem from="1577266142955" duration="5886000" />
       <workItem from="1577279657261" duration="52000" />
-      <workItem from="1577279741266" duration="3078000" />
+      <workItem from="1577279741266" duration="3824000" />
+      <workItem from="1577369546443" duration="4099000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -477,11 +488,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577113821332</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="..">
+      <created>1577282998448</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577282998448</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="257500000" />
+    <option name="totallyTimeSpent" value="262345000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -496,7 +514,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.20710456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49879518" visible="true" weight="0.21006711" />
       <window_info id="Structure" order="1" sideWeight="0.50120485" side_tool="true" weight="0.28217158" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -505,8 +523,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.28217158" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14589235" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.16855524" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21164773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38352272" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
@@ -515,7 +533,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.2733711" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32719547" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32670453" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -536,6 +554,16 @@
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="l" />
@@ -595,13 +623,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/code59.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="39" lean-forward="true" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/JDK1.8.0/src.zip!/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -728,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/jjjava/genericity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/jjjava/MyStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
@@ -851,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/code50.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -914,41 +921,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jjjava/genericity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/subTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="567">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="27" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/treeCreateAndReverse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
+        <state relative-caret-position="-1236">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java">
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="297">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="31" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        <state relative-caret-position="405">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="191">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="35" column="17" selection-start-line="16" selection-start-column="4" selection-end-line="40" selection-end-column="20" />
         </state>
       </provider>
     </entry>

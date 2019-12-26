@@ -20,8 +20,6 @@ public class clockWiseMatrix {
     }
 
     void clockWise(int[][] matrix, ArrayList<Integer> result) {
-        if (result.size() == matrix.length * matrix[0].length)
-            return;
         int top = 0;
         int bottom = matrix.length - 1;
         int left = 0;
@@ -53,7 +51,6 @@ public class clockWiseMatrix {
             left++;
             if (left > right) break;
         }
-
     }
 
     public static void main(String[] args) {
