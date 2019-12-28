@@ -1,7 +1,12 @@
 package SwordOffer;
 
 import java.util.ArrayList;
-
+/**
+ * 题目：二叉搜索树与双向链表
+ * 描述: 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的双向链表。要求不能创建任何新的结点，只能调整树中结点指针的指向。
+ * 思路：对于二叉搜索树，中序遍历，遍历序列即为从小到大的一个序列，
+ *      将序列放入ArrayLit，然后再设置节点的left和right即可，注意边界。
+ */
 public class treeToLinkedlist {
     public TreeNode Convert(TreeNode pRootOfTree) {
         if(pRootOfTree==null) return null;
