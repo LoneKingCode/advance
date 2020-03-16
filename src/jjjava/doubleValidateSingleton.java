@@ -7,7 +7,7 @@ package jjjava;
  * @Modified By: LoneKing
  * @Blame: LoneKing
  */
-public class doubleValidateSingleton {
+public   class doubleValidateSingleton {
     //双重校验锁
     private volatile static doubleValidateSingleton instance;
     public static doubleValidateSingleton getInstance() {
@@ -26,7 +26,7 @@ public class doubleValidateSingleton {
         static doubleValidateSingleton instance = new jjjava.doubleValidateSingleton();
     }
 
-    public static doubleValidateSingleton lazyLoadSingleton() {
+    public  static doubleValidateSingleton lazyLoadSingleton() {
         return doubleValidateSingletonHolder.instance;
     }
 

@@ -43,7 +43,7 @@ public class reverseLinkedList {
 
 }
 
-class ListNode {
+  class ListNode {
     int val;
     ListNode next = null;
 

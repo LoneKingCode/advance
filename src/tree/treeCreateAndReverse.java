@@ -24,7 +24,6 @@ public class treeCreateAndReverse {
         traverseMid(node.left);
         System.out.print(node.val);
         traverseMid(node.right);
-
     }
 
     //先序遍历二叉树
