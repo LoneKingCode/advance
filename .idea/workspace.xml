@@ -1,19 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="..">
-      <change afterPath="$PROJECT_DIR$/src/ATATAAT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwordOffer/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jjjava/testLambda.java" afterDir="false" />
+    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/Code1863.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/record.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/CloneRandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/CloneRandomListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/DoubleDimensionalArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/EntryNodeOfLoopA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/EntryNodeOfLoopA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/FindContinuousSequenceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/FindContinuousSequenceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/FindKthToTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/PrintFromTopToBottomTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/VerifySquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/clockWiseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/cutRopeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/cutRopeA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/deleteDuplicationLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/deleteDuplicationLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/fastPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/fastPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/findTreeSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/findTreeSumPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/hasPathA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/hasPathA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/longestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/longestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/mergeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/numberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/numberOf1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reOrderArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/robotMovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/robotMovingCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/subTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/subTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/treeToLinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/TestSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/TestSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/VolatileAtomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/VolatileAtomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/abcSynch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/abcSynch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/doubleValidateSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/doubleValidateSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/genericity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/genericity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/sellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/sellTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jjjava/testLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/testLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1115.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1117.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1195.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1195.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code1226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code189.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/code950.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code950.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/share/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="209" />
@@ -44,12 +115,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/jjjava" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../js/ylui-master" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -65,45 +136,9 @@
       <recent name="D:\MyProject\LoneKingCode\java\advance\src\tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.testLambda">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="advance" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.Merge" />
-      <module name="advance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Quick" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.Quick" />
-      <module name="advance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="code90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.code90" />
+  <component name="RunManager" selected="Application.Code1863">
+    <configuration name="Code1863" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Code1863" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -115,12 +150,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jjjava.testLambda" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="advance" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VolatileAtomDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="old.jjjava.VolatileAtomDemo" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jjjava.*" />
+          <option name="PATTERN" value="old.jjjava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="code90" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="old.leetcode.code90" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="old.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testLambda" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="old.jjjava.testLambda" />
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="old.jjjava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.testLambda" />
+        <item itemvalue="Application.Code1863" />
+        <item itemvalue="Application.VolatileAtomDemo" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.testLambda" />
         <item itemvalue="Application.code90" />
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.Quick" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +299,11 @@
       <workItem from="1587734934080" duration="452000" />
       <workItem from="1587783160490" duration="346000" />
       <workItem from="1587783532295" duration="199000" />
-      <workItem from="1587783881030" duration="1446000" />
+      <workItem from="1587783881030" duration="1535000" />
+      <workItem from="1588680154503" duration="1295000" />
+      <workItem from="1591510745350" duration="2827000" />
+      <workItem from="1599326958167" duration="607000" />
+      <workItem from="1621953522870" duration="5067000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -356,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584372743591</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="..">
+      <created>1587785482553</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1587785482553</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -376,92 +458,52 @@
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="547" y="117" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583810343914">
+    <state width="416" height="462" key="DebuggerActiveHint" timestamp="1621957706527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="547" y="117" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1583810343914" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1583116917607">
+    <state width="416" height="462" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1621957706527" />
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1621957929277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1583116917607" />
-    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1583336216459">
+    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
+    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1621957929277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="449" y="139" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1583336216459" />
-    <state x="531" y="241" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog" timestamp="1587783727666">
+    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
+    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1621957929277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="531" y="241" width="473" height="502" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1587783727666" />
-    <state x="156" y="54" key="#xdebugger.evaluate" timestamp="1585227270872">
+    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
+    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1621957929277">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="156" y="54" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1585227270872" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1585054118917">
+    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom" timestamp="1621957929149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1585054118917" />
-    <state width="431" height="438" key="DebuggerActiveHint" timestamp="1585221883986">
+    <state width="1493" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
+    <state width="1493" height="145" key="GridCell.Tab.1.center" timestamp="1621957929149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="431" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1585221883986" />
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom" timestamp="1587783733474">
+    <state width="1493" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
+    <state width="1493" height="145" key="GridCell.Tab.1.left" timestamp="1621957929149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587783733474" />
-    <state width="1493" height="338" key="GridCell.Tab.0.center" timestamp="1587783733474">
+    <state width="1493" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
+    <state width="1493" height="145" key="GridCell.Tab.1.right" timestamp="1621957929149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587783733474" />
-    <state width="1493" height="338" key="GridCell.Tab.0.left" timestamp="1587783733474">
+    <state width="1493" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1621955104648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587783733474" />
-    <state width="1493" height="338" key="GridCell.Tab.0.right" timestamp="1587783733474">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="338" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587783733474" />
-    <state width="1087" height="163" key="GridCell.Tab.1.bottom" timestamp="1585227909142">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1087" height="163" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585227909142" />
-    <state width="1087" height="163" key="GridCell.Tab.1.center" timestamp="1585227909142">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1087" height="163" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585227909142" />
-    <state width="1087" height="163" key="GridCell.Tab.1.left" timestamp="1585227909142">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1087" height="163" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585227909142" />
-    <state width="1087" height="163" key="GridCell.Tab.1.right" timestamp="1585227909142">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1087" height="163" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585227909142" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1587783728582">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587783728582" />
-    <state x="490" y="154" width="540" height="524" key="StructurePopup" timestamp="1583742236485">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="490" y="154" width="540" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1583742236485" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1584372747624">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584372747624" />
-    <state x="447" y="143" width="642" height="538" key="find.popup" timestamp="1585189664418">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="447" y="143" width="642" height="538" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585189664418" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582451674318">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582451674318" />
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621955104648" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/jjjava/TestSerializable.java</url>
+          <url>file://$PROJECT_DIR$/src/old/jjjava/TestSerializable.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>

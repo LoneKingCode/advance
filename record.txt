@@ -1,7 +1,8 @@
-各种排序算法
+https://leetcode-cn.com/problems/sum-of-all-subset-xor-totals/solution/sum-of-all-subset-xor-totals-by-leetcode-o5aa/
 
-比较器
+i:    2n-1
+1 << n
 
-多线程
+0001000  (8)
 
-自实现 hashmap
+0000000

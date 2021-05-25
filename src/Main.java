@@ -1,8 +1,5 @@
-import javax.sound.midi.Soundbank;
 import java.io.*;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.*;
+import java.text.MessageFormat;
 
 /**
  * 题目：
@@ -11,53 +8,24 @@ import java.util.*;
  * 思路：
  */
 public class Main {
-    static boolean[] used;
 
-    public static int subsets(List<Integer> nums) {
-        int result = 0;
-        List<List<Integer>> res = new ArrayList<>();
-        used = new boolean[nums.size()];
-        backtrack(0, nums, res, new ArrayList<Integer>());
-        for (List<Integer> list : res) {
-            if (list.size() == 0) continue;
-            boolean flag = true;
-            for (int i = 0; i < list.size(); i++) {
-                if (i == 0) {
-                    continue;
-                } else if (((double) list.get(i) / (double) i > list.get(i) / i)) {
-                    flag = false;
-                }
-            }
-            if (flag) {
-                result++;
-            }
-
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(
+                new FileReader("D:\\MyProject\\LoneKingCode\\java\\advance\\test.txt"));
+        String str;
+        File file = new File("D:\\MyProject\\LoneKingCode\\java\\advance\\test1.txt");
+        if (!file.exists()) {
+            file.createNewFile();
         }
-        return result;
-    }
+        FileWriter fileWritter = new FileWriter(file.getName(), true);
 
-    private static void backtrack(int i, List<Integer> nums, List<List<Integer>> res, List<Integer> temp) {
-        res.add(new ArrayList<>(temp));
-        for (int j = i; j < nums.size(); j++) {
-            if (!used[j]) {
-                used[j] = true;
-                temp.add(nums.get(j));
-                backtrack(j + 1, nums, res, temp);
-                temp.remove(temp.size() - 1);
-                used[j] = false;
-            }
+        while ((str = bufferedReader.readLine()) != null) {
+            String[] strs = str.split("----");
+            String s = MessageFormat.format("{0}----{1}----{2}----{3}\n",
+                    strs[2], strs[3], strs[0], strs[1]);
+            fileWritter.write(s);
         }
-    }
-
-    public static void main(String[] args) {
-        Scanner cin = new Scanner(System.in);
-        int num;
-        num = cin.nextInt();
-        List<Integer> list = new ArrayList<>();
-        while (cin.hasNextInt()) {
-            list.add(cin.nextInt());
-        }
-        System.out.println(subsets(list));
+        fileWritter.close();
     }
 }
 
