@@ -2,81 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/Code1863.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/advance/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/record.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/CloneRandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/CloneRandomListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/DoubleDimensionalArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/DoubleDimensionalArrayFind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/EntryNodeOfLoopA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/EntryNodeOfLoopA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/FindContinuousSequenceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/FindContinuousSequenceA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/FindKthToTail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/PrintFromTopToBottomTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/PrintFromTopToBottomTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/ReverseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/VerifySquenceOfBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/clockWiseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/clockWiseMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/cutRopeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/cutRopeA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/deleteDuplicationLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/deleteDuplicationLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/fastPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/fastPower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/findTreeSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/findTreeSumPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/hasPathA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/hasPathA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/longestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/longestSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/mergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/mergeLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/numberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/numberOf1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reConstructBinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reOrderArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reOrderArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/reverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/robotMovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/robotMovingCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/subTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/subTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SwordOffer/treeToLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/SwordOffer/treeToLinkedlist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/MyStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/TestSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/TestSerializable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/VolatileAtomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/VolatileAtomDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/abcSynch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/abcSynch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/doubleValidateSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/doubleValidateSingleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/genericity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/genericity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/sellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/sellTicket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jjjava/testLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/jjjava/testLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1114.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1115.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1116.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1117.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code118.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code119.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1195.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1195.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code122.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code1226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code1226.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code167.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code169.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code189.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code26.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code35.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code39.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code40.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code46.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code47.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code50.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code59.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code66.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code70.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code78.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code79.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code88.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code90.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code93.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/code950.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/leetcode/code950.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/share/TreeNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +229,7 @@
       <workItem from="1588680154503" duration="1295000" />
       <workItem from="1591510745350" duration="2827000" />
       <workItem from="1599326958167" duration="607000" />
-      <workItem from="1621953522870" duration="5067000" />
+      <workItem from="1621953522870" duration="5426000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -438,7 +364,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587785482553</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="..">
+      <created>1621958687988</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621958687988</updated>
+    </task>
+    <task id="LOCAL-00021" summary="..">
+      <created>1621958904618</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621958904618</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,46 +398,54 @@
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="0" key="CommitChangelistDialog2" timestamp="1621958902955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1621958902955" />
     <state width="416" height="462" key="DebuggerActiveHint" timestamp="1621957706527">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="416" height="462" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1621957706527" />
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom" timestamp="1621957929277">
+    <state width="1493" height="82" key="GridCell.Tab.0.bottom" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
-    <state width="1493" height="145" key="GridCell.Tab.0.center" timestamp="1621957929277">
+    <state width="1493" height="82" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.0.center" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
-    <state width="1493" height="145" key="GridCell.Tab.0.left" timestamp="1621957929277">
+    <state width="1493" height="82" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.0.left" timestamp="1621958963888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
-    <state width="1493" height="145" key="GridCell.Tab.0.right" timestamp="1621957929277">
+    <state width="1493" height="82" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621958963888" />
+    <state width="1493" height="82" key="GridCell.Tab.0.right" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621957929277" />
-    <state width="1493" height="145" key="GridCell.Tab.1.bottom" timestamp="1621957929149">
+    <state width="1493" height="82" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.1.bottom" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
-    <state width="1493" height="145" key="GridCell.Tab.1.center" timestamp="1621957929149">
+    <state width="1493" height="82" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.1.center" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
-    <state width="1493" height="145" key="GridCell.Tab.1.left" timestamp="1621957929149">
+    <state width="1493" height="82" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.1.left" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
-    <state width="1493" height="145" key="GridCell.Tab.1.right" timestamp="1621957929149">
+    <state width="1493" height="82" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
+    <state width="1493" height="82" key="GridCell.Tab.1.right" timestamp="1621958963889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="145" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621957929149" />
+    <state width="1493" height="82" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1621958963889" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1621955104648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621955104648" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1621958905932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1621958905932" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
