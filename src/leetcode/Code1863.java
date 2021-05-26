@@ -22,15 +22,67 @@ import java.util.List;
  * @Date : 2021/5/25
  */
 public class Code1863 {
-    public int subsetXORSum2(int[] nums){
-        int sum = 0;
 
 
-
-
-        return sum;
+    /**
+     * 提示 1
+     * 一个长度为 n的数组nums 有 2^n2 个子集（包括空集与自身）。我们可以将这些子集一一映射到 [0, 2^n-1] 中的整数。
+     * 提示 2
+     * <p>
+     * 数组中的每个元素都有「选取」与「未选取」两个状态，可以对应一个二进制位的 1与0。
+     * 那么对于一个长度为 n 的数组nums，我们也可以用 n 个二进制位的整数来唯一表示每个元素的选取情况。
+     * 此时该整数第 j 位的取值表示数组第 j 个元素是否包含在对应的子集中。
+     * 思路与算法
+     * 我们也可以用迭代来实现子集枚举。
+     * <p>
+     * 根据 提示 1 与 提示 2，我们枚举 [0, 2^n-1]中的整数 i，其第 j 位的取值表示
+     * nums 的第 j 个元素是否包含在对应的子集中。
+     * 对于每个整数 ii，我们遍历它的每一位计算对应子集的异或总和，并维护这些值之和。
+     * <p>
+     * i:    2n-1         j 0 1 2
+     * 1 << n             1 << j
+     * 0 00000000		   00000001 00000010 00000100    0 0 0
+     * 1 00000001         00000001 00000010 00000100    T 0 0
+     * 2 00000010		   00000001 00000010 00000100    0 T 0
+     * 3 00000011         00000001 00000010 00000100    T T 0
+     * 4 00000100         00000001 00000010 00000100    0 0 T
+     * 5 00000101         00000001 00000010 00000100    T 0 T
+     * 6 00000110		   00000001 00000010 00000100    0 T T
+     * 7 00000111		   00000001 00000010 00000100    T T T
+     *
+     * @param nums
+     * @return
+     */
+    public int subsetXORSum2(int[] nums) {
+        int res = 0;
+        int n = nums.length;
+        for (int i = 0; i < (1 << n); i++) {
+            int temp = 0;
+            for (int j = 0; j < n; j++) {
+                if ((i & (1 << j)) > 0) {
+                    temp ^= nums[j];
+                }
+            }
+            res += temp;
+        }
+        return res;
     }
 
+    int result;
+
+    public int subsetXORSum3(int[] nums) {
+        dfs3(nums, 0, 0);
+        return result;
+    }
+
+    public void dfs3(int[] nums, int current, int n) {
+        if (n == nums.length) {
+            result += current;
+            return;
+        }
+        dfs3(nums, current ^ nums[n], n + 1);
+        dfs3(nums, current, n + 1);
+    }
 
     public int subsetXORSum(int[] nums) {
         List<ArrayList<Integer>> result = new ArrayList<>();
@@ -47,7 +99,7 @@ public class Code1863 {
     }
 
     /**
-     * 找到所有的子集
+     * 回溯法，暴力，找到所有的子集
      *
      * @param nums
      * @param result
@@ -69,6 +121,6 @@ public class Code1863 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Code1863().subsetXORSum(new int[]{5, 1, 6}));
+        System.out.println(new Code1863().subsetXORSum3(new int[]{5, 1, 6}));
     }
 }

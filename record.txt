@@ -1,8 +1,0 @@
-https://leetcode-cn.com/problems/sum-of-all-subset-xor-totals/solution/sum-of-all-subset-xor-totals-by-leetcode-o5aa/
-
-i:    2n-1
-1 << n
-
-0001000  (8)
-
-0000000
