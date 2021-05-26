@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.backtracking;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +21,7 @@ import java.util.List;
  * @author : LoneKing
  * @Date : 2021/5/25
  */
-public class Code1863 {
+public class EasyCode1863 {
 
 
     /**
@@ -121,6 +121,6 @@ public class Code1863 {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Code1863().subsetXORSum3(new int[]{5, 1, 6}));
+        System.out.println(new EasyCode1863().subsetXORSum3(new int[]{5, 1, 6}));
     }
 }
