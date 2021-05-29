@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="code401 1">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode17.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/EasyCode401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/backtracking/EasyCode401.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +232,7 @@
       <workItem from="1599326958167" duration="607000" />
       <workItem from="1621953522870" duration="5426000" />
       <workItem from="1622036979588" duration="7342000" />
-      <workItem from="1622255991800" duration="5748000" />
+      <workItem from="1622255991800" duration="6439000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -403,7 +402,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622044869875</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="code401 1">
+      <created>1622291804284</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622291804284</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -422,17 +428,18 @@
     <MESSAGE value=".." />
     <MESSAGE value="code1863" />
     <MESSAGE value="code1688 1&#10;code401  0" />
-    <option name="LAST_COMMIT_MESSAGE" value="code1688 1&#10;code401  0" />
+    <MESSAGE value="code401 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="code401 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1622291268356">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1622291268356" />
-    <state x="346" y="0" key="CommitChangelistDialog2" timestamp="1622291785779">
+    <state x="346" y="0" key="CommitChangelistDialog2" timestamp="1622291801930">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="346" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622291785779" />
+    <state x="346" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622291801930" />
     <state width="416" height="462" key="DebuggerActiveHint" timestamp="1622290089972">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -473,10 +480,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621955104648" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622044870811">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622291805742">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622044870811" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622291805742" />
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622302930614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1622302930614" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
