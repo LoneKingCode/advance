@@ -39,7 +39,6 @@ public class MediumCode22 {
             return;
         }
 
-
         if (leftCount >= rightCount) {
             // 补一个左就立马补一个右，左够n个时候递归退出一层
             f(n, leftCount + 1, rightCount, temp + "(");
