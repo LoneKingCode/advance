@@ -2,9 +2,115 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode89.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/EasyCode1688.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/EasyCode1863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/EasyCode401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode47.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode77.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode78.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode89.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/javaa/reactor/ReactorSnippets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/advance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/advance/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/push.bat" beforeDir="false" afterPath="$PROJECT_DIR$/push.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/EasyCode1688.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/EasyCode1863.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/EasyCode401.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode22.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode39.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode40.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode46.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode47.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode77.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode78.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode79.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/backtracking/MediumCode89.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/CloneRandomListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/CloneRandomListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/DoubleDimensionalArrayFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/DoubleDimensionalArrayFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/EntryNodeOfLoopA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/EntryNodeOfLoopA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/FindContinuousSequenceA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/FindContinuousSequenceA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/FindKthToTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/FindKthToTail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/PrintFromTopToBottomTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/PrintFromTopToBottomTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/ReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/ReverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/VerifySquenceOfBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/VerifySquenceOfBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/clockWiseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/clockWiseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/cutRopeA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/cutRopeA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/deleteDuplicationLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/deleteDuplicationLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/fastPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/fastPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/findTreeSumPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/findTreeSumPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/hasPathA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/hasPathA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/longestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/longestSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/mergeLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/mergeLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/numberOf1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/numberOf1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/reConstructBinaryTreeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/reConstructBinaryTreeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/reOrderArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/reOrderArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/reverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/reverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/robotMovingCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/robotMovingCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/subTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/subTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/SwordOffer/treeToLinkedlist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/SwordOffer/treeToLinkedlist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/MyStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/MyStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/TestSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/TestSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/ThreadPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/VolatileAtomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/VolatileAtomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/abcSynch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/abcSynch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/doubleValidateSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/doubleValidateSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/genericity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/genericity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/sellTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/sellTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/jjjava/testLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/javaa/testLambda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1114.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1114.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1115.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1115.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1117.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1117.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code118.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code118.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code119.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code119.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1195.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1195.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code1226.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code1226.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code167.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code167.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code169.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code169.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code189.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code189.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code47.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code47.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code50.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code59.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code59.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code66.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code66.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code90.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code90.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code93.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code93.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/leetcode/code950.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/leetcode/code950.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/old/share/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/old/share/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Bubble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/Bubble.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/Insert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sort/Quick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/Quick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tree/treeCreateAndReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/treeCreateAndReverse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +142,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -48,6 +155,9 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProject\LoneKingCode\java\advance" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="leetcode.backtracking" />
       <recent name="" />
@@ -62,26 +172,13 @@
       <recent name="D:\MyProject\LoneKingCode\java\advance\src\tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MediumCode79">
-    <configuration name="MediumCode46" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.MediumCode46" />
-      <module name="advance" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ReactorSnippets">
     <configuration name="MediumCode47" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.MediumCode47" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.MediumCode47" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
+          <option name="PATTERN" value="algorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,11 +187,11 @@
       </method>
     </configuration>
     <configuration name="MediumCode77" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.MediumCode77" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.MediumCode77" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
+          <option name="PATTERN" value="algorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +200,11 @@
       </method>
     </configuration>
     <configuration name="MediumCode78" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.MediumCode78" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.MediumCode78" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
+          <option name="PATTERN" value="algorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +213,11 @@
       </method>
     </configuration>
     <configuration name="MediumCode79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.backtracking.MediumCode79" />
+      <option name="MAIN_CLASS_NAME" value="algorithm.backtracking.MediumCode79" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.backtracking.*" />
+          <option name="PATTERN" value="algorithm.backtracking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,13 +225,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReactorSnippets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="advance" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaa.reactor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="javaa.reactor" />
+      <option name="MAIN_CLASS_NAME" value="javaa.reactor.ReactorSnippets" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReactorSnippets" />
         <item itemvalue="Application.MediumCode79" />
         <item itemvalue="Application.MediumCode78" />
         <item itemvalue="Application.MediumCode77" />
         <item itemvalue="Application.MediumCode47" />
-        <item itemvalue="Application.MediumCode46" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +348,7 @@
       <workItem from="1622036979588" duration="7342000" />
       <workItem from="1622255991800" duration="6545000" />
       <workItem from="1622884207327" duration="17102000" />
-      <workItem from="1623414954206" duration="9040000" />
+      <workItem from="1623414954206" duration="9820000" />
     </task>
     <task id="LOCAL-00001" summary="..">
       <created>1571029263980</created>
@@ -420,19 +532,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622302954117</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="code79 89">
+      <created>1623429158274</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1623429158274</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value=".." />
     <MESSAGE value="code1863" />
     <MESSAGE value="code1688 1&#10;code401  0" />
     <MESSAGE value="code401 1" />
     <MESSAGE value="code401 1&#10;code17 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="code401 1&#10;code17 0" />
+    <MESSAGE value="code79 89" />
+    <option name="LAST_COMMIT_MESSAGE" value="code79 89" />
   </component>
   <component name="WindowStateProjectService">
     <state x="524" y="114" key="#xdebugger.evaluate" timestamp="1623428797799">
@@ -440,70 +561,73 @@
     </state>
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428797799" />
     <state x="524" y="114" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1622291268356" />
-    <state x="346" y="0" key="CommitChangelistDialog2" timestamp="1622302951147">
+    <state x="346" y="0" key="CommitChangelistDialog2" timestamp="1623429155481">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="346" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429155481" />
     <state x="346" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1622302951147" />
     <state width="444" height="462" key="DebuggerActiveHint" timestamp="1623424037420">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="444" height="462" key="DebuggerActiveHint/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623424037420" />
     <state width="444" height="462" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1622890425371" />
-    <state width="1493" height="234" key="GridCell.Tab.0.bottom" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.0.bottom" timestamp="1623429809953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809953" />
     <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.0.center" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.0.center" timestamp="1623429809953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809953" />
     <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.0.left" timestamp="1623428815561">
+    <state width="1493" height="234" key="GridCell.Tab.0.left" timestamp="1623429809952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815561" />
+    <state width="1493" height="234" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809952" />
     <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.0.right" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.0.right" timestamp="1623429809953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809953" />
     <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.1.bottom" timestamp="1623428815563">
+    <state width="1493" height="234" key="GridCell.Tab.1.bottom" timestamp="1623429809526">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815563" />
+    <state width="1493" height="234" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809526" />
     <state width="1493" height="259" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622908405393" />
-    <state width="1493" height="234" key="GridCell.Tab.1.center" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.1.center" timestamp="1623429809525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809525" />
     <state width="1493" height="259" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.1.left" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.1.left" timestamp="1623429809525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809525" />
     <state width="1493" height="259" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
-    <state width="1493" height="234" key="GridCell.Tab.1.right" timestamp="1623428815562">
+    <state width="1493" height="234" key="GridCell.Tab.1.right" timestamp="1623429809525">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="234" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623428815562" />
+    <state width="1493" height="234" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429809525" />
     <state width="1493" height="259" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622908405392" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1621955104648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1621955104648" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622302955210">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623429159656">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429159656" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1622302955210" />
     <state x="338" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1622897694232">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="338" y="14" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1622897694232" />
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1622302930614">
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623429141392">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429141392" />
     <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1622302930614" />
     <state x="1955" y="0" width="1259" height="735" maximized="true" key="dock-window-1" timestamp="1623415509736">
       <screen x="1920" y="0" width="1280" height="680" />
@@ -513,10 +637,14 @@
       <screen x="1920" y="0" width="1280" height="680" />
     </state>
     <state x="1968" y="55" width="1141" height="575" key="dock-window-2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623425675024" />
-    <state x="2119" y="235" width="674" height="531" maximized="true" key="dock-window-3" timestamp="1623426347794">
+    <state x="2139" y="77" width="674" height="531" key="dock-window-3" timestamp="1623429424105">
       <screen x="1920" y="0" width="1280" height="680" />
     </state>
-    <state x="2119" y="235" width="674" height="531" maximized="true" key="dock-window-3/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623426347794" />
+    <state x="2139" y="77" width="674" height="531" key="dock-window-3/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429424105" />
+    <state x="468" y="115" width="600" height="594" key="find.popup" timestamp="1623429866677">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="468" y="115" width="600" height="594" key="find.popup/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623429866677" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1622896512878">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -526,22 +654,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/old/jjjava/TestSerializable.java</url>
+          <url>file://$PROJECT_DIR$/src/javaa/TestSerializable.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/Insert.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithm/sort/Insert.java</url>
           <line>15</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sort/Merge.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithm/sort/Merge.java</url>
           <line>12</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/leetcode/backtracking/MediumCode47.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithm/backtracking/MediumCode47.java</url>
           <line>56</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
