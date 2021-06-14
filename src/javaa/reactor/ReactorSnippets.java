@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * 集合分割逐个调用
  *
- * @author wangzixiang
+ * @author LoneKing
  * @date 2021/6/8
  */
 public class ReactorSnippets {
