@@ -1,7 +1,6 @@
 package algorithm.leetcode.backtracking;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * 给你一个字符串 s，请你将 s 分割成一些子串，使每个子串都是 回文串 。返回 s 所有可能的分割方案。
@@ -36,15 +35,46 @@ public class MediumCode131 {
     List<List<String>> result = new ArrayList<>();
 
     public List<List<String>> partition(String s) {
-        f(s);
+        if (Objects.isNull(s) || s.isEmpty()) {
+            return result;
+        }
+
+        f(s, 0, new LinkedList<>());
         return result;
     }
 
-    public void f(String s) {
+    public boolean isPalindrome(String s) {
+        int i = 0;
+        int j = s.length() - 1;
+        while (i != j && i < s.length() && j >= 0) {
+            if (s.charAt(i) != s.charAt(j)) {
+                return false;
+            }
+            i++;
+            j--;
+        }
 
+        return true;
+    }
+
+    public void f(String s, int start, LinkedList<String> temp) {
+        if (start == s.length()) {
+            result.add(new ArrayList<>(temp));
+            return;
+        }
+
+        for (int i = start; i < s.length(); i++) {
+            String str = s.substring(start, i + 1);
+            if (isPalindrome(str)) {
+                temp.add(str);f(s, i + 1, temp);
+                temp.removeLast();
+            }
+
+        }
     }
 
     public static void main(String[] args) {
+
         System.out.println(new MediumCode131().partition("aab"));
     }
 }

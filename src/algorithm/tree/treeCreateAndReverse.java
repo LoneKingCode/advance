@@ -6,7 +6,8 @@ public class treeCreateAndReverse {
 
     public static void main(String[] args) {
         index = 0;
-        int[] firstTree = {1, 2, 4, 0, 0, 5, 0, 0, 3, 6, 0, 0, 7, 0, 0};//先序
+        //先序
+        int[] firstTree = {1, 2, 4, 0, 0, 5, 0, 0, 3, 6, 0, 0, 7, 0, 0};
         TreeNode firstNode = new TreeNode(-1);
         createTreeFirst(firstNode, firstTree);
         index = 0;
@@ -51,6 +52,7 @@ public class treeCreateAndReverse {
 
     // 先序创建二叉树
     public static void createTreeFirst(TreeNode node, int[] tree) {
+
         if (tree[index] == 0) {
             index++;
             return;
@@ -67,6 +69,7 @@ public class treeCreateAndReverse {
             index++;
             createTreeFirst(node.left, tree);
         }
+
         if (tree[index + 1] == 0) {
             node.right = null;
             index++;
@@ -77,12 +80,3 @@ public class treeCreateAndReverse {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
