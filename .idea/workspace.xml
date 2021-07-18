@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2b3671c1-fe0f-4a04-8834-a207b79b2224" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode211.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode216.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode100.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode112.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/EasyCode94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode96.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/tree/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode102.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode107.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode113.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode117.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode129.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode131.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/backtracking/MediumCode79.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/old/share/TreeNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/treeCreateAndReverse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/treeCreateAndReverse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode96.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode96.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +86,9 @@
       <recent name="D:\MyProject\LoneKingCode\java\advance\src\tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EasyCode112">
-    <configuration name="EasyCode104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.EasyCode104" />
+  <component name="RunManager" selected="Application.MediumCode116">
+    <configuration name="MediumCode103" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.MediumCode103" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -105,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyCode108" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.EasyCode108" />
+    <configuration name="MediumCode107" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.MediumCode107" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -118,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyCode110" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.EasyCode110" />
+    <configuration name="MediumCode113" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.MediumCode113" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyCode111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.EasyCode111" />
+    <configuration name="MediumCode116" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.MediumCode116" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EasyCode112" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.EasyCode112" />
+    <configuration name="MediumCode129" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.tree.MediumCode129" />
       <module name="advance" />
       <extension name="coverage">
         <pattern>
@@ -153,17 +148,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EasyCode112" />
-        <item itemvalue="Application.EasyCode111" />
-        <item itemvalue="Application.EasyCode110" />
-        <item itemvalue="Application.EasyCode108" />
-        <item itemvalue="Application.EasyCode104" />
+        <item itemvalue="Application.MediumCode116" />
+        <item itemvalue="Application.MediumCode129" />
+        <item itemvalue="Application.MediumCode113" />
+        <item itemvalue="Application.MediumCode107" />
+        <item itemvalue="Application.MediumCode103" />
       </list>
     </recent_temporary>
   </component>
@@ -497,68 +503,6 @@
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="112" y="182" width="488" height="642" key="#xdebugger.evaluate" timestamp="1624633695941">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="112" y="182" width="488" height="642" key="#xdebugger.evaluate/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624633695941" />
-    <state x="372" y="0" key="CommitChangelistDialog2" timestamp="1623677533026">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="372" y="0" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623677533026" />
-    <state width="409" height="466" key="DebuggerActiveHint" timestamp="1624707974933">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="409" height="466" key="DebuggerActiveHint/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624707974933" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1625294302729">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1625294302729" />
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom" timestamp="1624717359845">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359845" />
-    <state width="1493" height="143" key="GridCell.Tab.0.center" timestamp="1624717359844">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359844" />
-    <state width="1493" height="143" key="GridCell.Tab.0.left" timestamp="1624717359844">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359844" />
-    <state width="1493" height="143" key="GridCell.Tab.0.right" timestamp="1624717359845">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="143" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359845" />
-    <state width="1493" height="95" key="GridCell.Tab.1.bottom" timestamp="1624717359838">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="95" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359838" />
-    <state width="1493" height="95" key="GridCell.Tab.1.center" timestamp="1624717359838">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="95" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359838" />
-    <state width="1493" height="95" key="GridCell.Tab.1.left" timestamp="1624717359838">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="95" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359838" />
-    <state width="1493" height="95" key="GridCell.Tab.1.right" timestamp="1624717359838">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="95" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624717359838" />
-    <state x="537" y="132" key="RollbackChangesDialog" timestamp="1624630843439">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="537" y="132" key="RollbackChangesDialog/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624630843439" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1623677536356">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1623677536356" />
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624021957989">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="563" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1280.680@0.0.1536.824" timestamp="1624021957989" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -581,6 +525,11 @@
           <url>file://$PROJECT_DIR$/src/algorithm/backtracking/MediumCode47.java</url>
           <line>56</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/tree/MediumCode116.java</url>
+          <line>109</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

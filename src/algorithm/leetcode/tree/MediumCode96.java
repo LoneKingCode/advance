@@ -37,17 +37,17 @@ package algorithm.leetcode.tree;
  * @Date : 2021/6/26
  */
 public class MediumCode96 {
-
-    public int numTrees(int n) {
-
-    }
-
-    public void f()
-    {
-
-    }
-
-    public static void main(String[] args) {
-        System.out.println(new MediumCode96().numTrees(3));
-    }
+//
+//    public int numTrees(int n) {
+//
+//    }
+//
+//    public void f()
+//    {
+//
+//    }
+//
+//    public static void main(String[] args) {
+//        System.out.println(new MediumCode96().numTrees(3));
+//    }
 }
